@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #262626; /* Darker background */
+    margin: 0;
+    padding: 0;
+    color: #ffffff; /* Text color */
+}
+
+h2 {
+    background-color: #121212; /* Darker background for header */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333333; /* Darker form background */
+    border: 1px solid #484848; /* Darker border */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out; /* Added transition */
+}
+
+form:hover {
+    transform: scale(1.02); /* Scale up on hover */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff; /* Label text color */
+}
+
+input[type="text"],
+select,
+input[type="submit"] {
+    width: calc(100% - 22px); /* Adjusted width for the border */
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-color: #444444; /* Darker input background */
+    color: #ffffff; /* Input text color */
+    border: 1px solid #666666; /* Darker border */
+    transition: background-color 0.3s, transform 0.2s; /* Added transition */
+}
+
+input[type="text"]:focus,
+select:focus {
+    background-color: #555555; /* Darker input background on focus */
+    transform: scale(1.03); /* Scale up on focus */
+}
+
+input[type="submit"] {
+    width: 100%; /* Button to take full width */
+    background-color: #111111; /* Darker button color */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Added transition */
+}
+
+input[type="submit"]:hover {
+    background-color: #000000; /* Lighter button color on hover */
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #484848; /* Darker border */
+    color: #ffffff; /* Table text color */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #262626; /* Darker header background */
+}
+
+tr:nth-child(even) {
+    background-color: #333333; /* Darker even row background */
+}
